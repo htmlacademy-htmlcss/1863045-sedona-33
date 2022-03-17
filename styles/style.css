@@ -359,6 +359,7 @@ body {
 }
 
 .follow-title {
+    display: block;
     text-transform: uppercase;
     margin: 0;
     margin-bottom: 29px;
@@ -368,6 +369,7 @@ body {
 }
 
 .follow-text {
+    display: block;
     margin: 0;
     margin-bottom: 46px;
     line-height: 26px;
@@ -1287,6 +1289,10 @@ box-shadow: 0 0 0 3px #756257;
 }
 
 .main-inner .follow-title {
+    color: #000;
+}
+
+.main-inner .follow-text {
     color: #000;
 }
 

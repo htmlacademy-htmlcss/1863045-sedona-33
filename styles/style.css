@@ -1303,7 +1303,7 @@ box-shadow: 0 0 0 3px #756257;
 }
 
 .modal-container-close {
-    display: none;
+    display: ;
 }
 
 .modal {
@@ -1366,8 +1366,6 @@ box-shadow: 0 0 0 3px #756257;
 .modal-form-group {
     position: relative;
     border: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: flex-end;
     margin-bottom: 40px;
@@ -1385,6 +1383,7 @@ box-shadow: 0 0 0 3px #756257;
 
 .modal-form-title {
     position: absolute;
+    margin: 0;
     top: 4px;
     left: 0;
     align-self: end;

@@ -1309,7 +1309,7 @@ box-shadow: 0 0 0 3px #756257;
 }
 
 .modal-container-close {
-    display: ;
+    display: none;
 }
 
 .modal {

@@ -1296,6 +1296,14 @@ box-shadow: 0 0 0 3px #756257;
     color: #000;
 }
 
+.main-inner .input:hover {
+    background-color: #E6E6E6;
+}
+
+.main-inner .email-field:hover {
+    background-color: #E6E6E6;
+}
+
 /*modal*/
 
 .modal-container {

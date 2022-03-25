@@ -127,7 +127,7 @@ body {
     bottom: 0;
 }
 
-.navigation-link:hover {
+.navigation-link:hover  {
     color: #756257;
 }
 
@@ -136,7 +136,7 @@ body {
 }
 
 .navigation-link:active {
-    opacity: 0.3;
+    color:rgba(117, 98, 87, 0.3)
 }
 
 .navigation-icon {
@@ -148,6 +148,23 @@ body {
     margin: auto;
 }
 
+.navigation-link:hover .navigation-icon  {
+    color: #756257;
+}
+
+.navigation-icon-number {
+    position: absolute;
+    top: 15px;
+    right: -3px;
+    color: #7DB54F;
+    fill: white;
+}
+
+.navigation-link:active .navigation-icon-number {
+    color: #7DB54F;
+    fill: rgba(255, 255, 255, 0.3);
+} 
+
 .navigation-user .navigation-link {
     min-width: 18px;
     min-height: 18px;
@@ -155,7 +172,7 @@ body {
 }
 
 .navigation-user .navigation-item:last-child {
-    align-self:center;
+    margin-top: 13px;
 }
 
 .button-want {
@@ -340,6 +357,10 @@ body {
     display: block;
     width: 250px;
     margin: 20px auto 0 auto;
+}
+
+.advantages-item:nth-of-type(2) .advantages-description {
+    width: 180px;
 }
 
 .color-three {
@@ -842,6 +863,14 @@ body {
     padding: 0;
 }
 
+.range-input[type="number"] {
+    -moz-appearance: textfield;
+  }
+.range-input[type="number"]:hover,
+.range-input[type="number"]:focus {
+    -moz-appearance: number-input;
+  }
+
 .range-input::-webkit-inner-spin-button,
 .range-input::-webkit-outer-spin-button {
     appearance: none;
@@ -979,7 +1008,7 @@ body {
     border:2px solid #E6E6E6;
     background-image: url(../images/select-arrow.svg);
     background-repeat: no-repeat;
-    background-position: right 251px center;
+    background-position: left 250px center;
     cursor: pointer;
 }
 
@@ -1558,7 +1587,7 @@ box-shadow: 0 0 0 3px #756257;
 .modal-input-field {
     text-align: center;
     width: 31px;
-    background-color: transparent;
+    background-color: #F2F2F2;
     border: none;
     appearance: none;
     color: #000;
@@ -1574,6 +1603,14 @@ box-shadow: 0 0 0 3px #756257;
     margin: 0;
 }
 
+.modal-input-field[type="number"] {
+    -moz-appearance: textfield;
+  }
+.modal-input-field[type="number"]:hover,
+.modal-input-field[type="number"]:focus {
+    -moz-appearance: number-input;
+  }
+
 .add-person-button {
     border-radius: 4px;
     width: 51px;
@@ -1581,6 +1618,7 @@ box-shadow: 0 0 0 3px #756257;
     padding: 0;
     cursor: pointer;
     min-height: 50px;
+    background-color: #F2F2F2;
 }
 
 .add-person-icon {
